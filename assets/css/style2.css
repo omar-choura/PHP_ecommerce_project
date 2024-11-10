@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h6 {
+    color: #d8d8d8;
+}
+
+.navbar {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.4s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i:hover {
+    color: coral;
+}
+
+/* Style for active nav link */
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: coral;
+    border-bottom: 2px solid coral;
+}
+
+.navbar .navbar-brand img {
+    max-height: 50px;
+    transition: transform 0.3s;
+}
+
+.navbar .navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: coral;
+}
+
+.btn-outline-success {
+    color: coral;
+    border-color: coral;
+}
+
+.btn-outline-success:hover {
+    background-color: coral;
+    color: white;
+}
+
+@media only screen and (max-width: 990px) {
+    .nav-buttons {
+        margin: 10px;
+    }
+    .nav-buttons ul {
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .nav-buttons ul .fas {
+        margin: 20px 5px 10px 20px;
+    }
+}
+
+.card-img-top {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* General Footer Styling */
+footer {
+    margin-top: auto;
+    background-color: #222222;
+    color: #d8d8d8;
+    padding: 50px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-one h5 {
+    color: #f0f0f0;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-one p {
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+.footer-one ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-one li {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.footer-one li a {
+    color: #999;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-one li a:hover {
+    color: coral;
+    transform: translateX(5px);
+}
+
+/* Social Media Icons Styling */
+footer .social-icons a {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: #333;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s;
+    margin: 0 8px;
+    font-size: 1.2rem;
+}
+
+footer .social-icons a:hover {
+    background-color: coral;
+    transform: scale(1.2);
+}
+
+/* Image and Logo Styling */
+.footer-one img {
+    width: 100px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.footer-one img:hover {
+    transform: scale(1.05);
+}
+
+footer .row img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Instagram Section */
+.footer-one .row img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.footer-one .row img:hover {
+    transform: scale(1.1);
+}
+
+/* Payment Icons */
+footer .copyright img {
+    width: 100%;
+}
+
+/* Copyright Section */
+footer .copyright {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    color: #666;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+/* Footer link hover effect */
+footer a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-one {
+        text-align: center;
+    }
+    .footer-one .row img {
+        width: 60px;
+        height: 60px;
+    }
+    .copyright p {
+        font-size: 0.75rem;
+    }
+}
